@@ -1,0 +1,47 @@
+/* <div key={index} className="selected-plant">
+                  <img src={plant.imgURL} alt="Selected plant" style={{ width: '100px', height: '100px' }} />
+                  <p>{plant.common_name}</p>
+                  <p>{plant.scientific_name}</p>
+                </div> */
+
+.items{
+    /* border: 1px solid black; */
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.img-box{
+    /* border: 1px solid grey; */
+    width: 25%;
+    height: 100%;
+}
+.img-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.items-detail{
+    /* border: 1px solid black; */
+    width: 65%;
+    height: 100%;
+    padding: 0.5rem 0.5rem;
+    font: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.items-btn{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-btn button{
+    height: 1.5rem;
+    width: 1.5rem;
+}

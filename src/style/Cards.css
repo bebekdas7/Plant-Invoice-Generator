@@ -1,0 +1,32 @@
+.card-main{
+    /* border: 1px solid gray; */
+    height: 27rem;
+    width: 18vw;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img{
+    /* border: 1px solid black; */
+    height: 18rem;
+}
+.card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-detail{
+    /* border: 1px solid black; */
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+}
+
+.card-detail p{
+    /* margin-bottom: 0; */
+    font-size: 1.1rem;
+    line-height: 1rem;
+}

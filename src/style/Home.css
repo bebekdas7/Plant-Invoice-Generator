@@ -1,0 +1,51 @@
+.all-items {
+    /* border: 1px solid black; */
+    padding: 0rem 2rem;
+    width: 65%;
+    height: 100vh;
+}
+
+.Selected-items {
+    /* border: 1px solid black; */
+    width: 30%;
+    height: 100vh;
+}
+
+.header {
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.species-list {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 85vh;
+    overflow-y: auto;
+    padding: 1rem;
+}
+.species-list::-webkit-scrollbar{
+    display: none;
+}
+.search-bar{
+    /* border: 1px solid red; */
+    width: 20rem;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.selected-plant-list{
+    border: 1px solid black;
+    height: 85vh;
+    padding: 1rem 0.5rem;
+    overflow-y: scroll;
+}

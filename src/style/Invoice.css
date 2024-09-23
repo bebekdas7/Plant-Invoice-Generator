@@ -1,0 +1,152 @@
+.invoice-main{
+    border: 1px solid black;
+    width: 60vw;
+    /* margin: auto; */
+    height: auto;
+    padding: 0.3rem 2rem;
+}
+.invoice-contact{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.invoice-contact p{
+    font-size: 1rem;
+}
+
+
+.invoice-name{
+    /* border: 1px solid red; */
+    text-align: center;
+    color: green;
+}
+.invoice-name h1{
+    font-size: 2rem;
+}
+
+
+.invoice-details{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.invoice-details h3{
+    font-size: 1.2rem;
+    color: #220c3f;
+}
+.invoice-details p{
+    color: #220c3f;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.horizontal-rule{
+    border: 0.1px solid black;
+    width: 75%;
+    margin: auto;
+}
+
+
+.invoice-address{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.invoice-address p{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.invoice-quotation{
+    /* border: 1px solid black; */
+    display: flex;
+}
+.quotation-1{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 68.5%;
+    display: flex;
+    flex-direction: column;
+}
+.quotation-1 p{
+    font-weight: 500;
+}
+
+.quotation-2{
+    border: 1px solid black;
+    width: 31.5%;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+}
+.quotation-2 p{
+    font-weight: 500;
+}
+
+
+.invoice-table{
+    border: 1px solid black;
+}
+.td1{
+    /* border: 1px solid red; */
+    width: 5%;
+}
+.td2{
+    /* border: 1px solid red; */
+    width: 65%;
+}
+.td3{
+    /* border: 1px solid red; */
+    width: 10%;
+}
+.td4{
+    /* border: 1px solid red; */
+    width: 10%;
+}
+.td5{
+    /* border: 1px solid red; */
+    width: 10%;
+}
+
+
+.invoice-note{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+.invoice-note p{
+    font-size: 0.9rem;
+}
+
+.invoice-ending{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.invoice-ending p{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+input{
+    border: none;
+    width: 4.5rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="date"] {
+    width: 7rem;
+    padding: 5px;
+    font-size: 14px;
+  }
