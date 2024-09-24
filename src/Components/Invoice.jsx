@@ -2,6 +2,7 @@ import "../style/Invoice.css";
 import { useLocation } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import html2pdf from "html2pdf.js";
+import numberToWords from "number-to-words";
 
 const Invoice = () => {
   const location = useLocation();
@@ -43,6 +44,12 @@ const Invoice = () => {
     };
 
     html2pdf().from(element).set(opt).save();
+  };
+
+  // Function to convert total amount to words
+  const getAmountInWords = (amount) => {
+    if (amount === 0) return "Zero";
+    return numberToWords.toWords(amount).toUpperCase();
   };
 
   return (
@@ -148,7 +155,7 @@ const Invoice = () => {
 
         <div className="invoice-note mt-3 ms-4">
           <p className="mb-0">
-            (Rupees <u>One lakh Ninty-eight thousand and Nine hundred Only</u>)
+            (Rupees <u>{getAmountInWords(totalAmount)}</u>)
           </p>
           <p>Thanking you</p>
         </div>

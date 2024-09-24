@@ -133,7 +133,7 @@ const Home = () => {
             )}
             {/* Render Submit button when there are selected plants */}
             {selectedPlants.length > 0 && (
-              <button onClick={handleSubmit}>Submit</button>
+              <button onClick={handleSubmit} className="btn btn-primary">Submit</button>
             )}
           </div>
         </section>
